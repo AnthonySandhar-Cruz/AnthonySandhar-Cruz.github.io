@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anthonysc_site</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e477cbd7d9.js"></script>
+  </head>
+  <body>
+    <div id="term-popup">
+      <i class="fa-solid fa-terminal"></i>
+    </div>
+    <pre class="title">
+      .__                           
+      |  |__   ____   _____   ____  
+      |  |  \ /  _ \ /     \_/ __ \ 
+      |   Y  (  <_> )  Y Y  \  ___/ 
+      |___|  /\____/|__|_|  /\___  >
+           \/             \/     \/ 
+      ------------------------------
+      <span style="font-size:18px">anthonysc-site:/home/</span>
+    </pre>
+    <p class="main-text">Welcome to my website! To navigate the site, click the terminal icon in the bottom left of the screen to open the navigation terminal. Click the page title or type in the page name and press 'enter' to go to a page.</p>
+    <div id="term-expanded">
+      <button class="minimize-btn">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </button>
+      <p>
+        <span style="color: rgb(19, 204, 28)">user@anthonysc-site</span>:<span
+          style="color: #2525fb"
+          >~/</span>$ ls
+      </p>
+      <p>
+        <a href="index.html">home</a>
+        <a href="projects.html">projects</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+      </p>
+      <p>
+        <span style="color: rgb(19, 204, 28)">user@anthonysc-site</span>:<span
+          style="color: #2525fb"
+          >~/</span>$ <span contenteditable="true" id="user-input">cd</span>
+      </p>
+      <script src="cd.js"></script>
+    </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
